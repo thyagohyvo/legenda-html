@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legenda de Cores</title>
+    <style>
+        .legenda {
+            display: flex;
+            justify-content: space-between;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+        }
+        .item {
+            display: flex;
+            align-items: center;
+        }
+        .cor {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .verde { background-color: green; }
+        .amarelo { background-color: yellow; }
+        .laranja { background-color: orange; }
+        .vermelho { background-color: red; }
+    </style>
+</head>
+<body>
+
+<div class="legenda">
+    <div class="item">
+        <div class="cor verde"></div>
+        <span>Ok</span>
+    </div>
+    <div class="item">
+        <div class="cor amarelo"></div>
+        <span>Atenção</span>
+    </div>
+    <div class="item">
+        <div class="cor laranja"></div>
+        <span>Alta</span>
+    </div>
+    <div class="item">
+        <div class="cor vermelho"></div>
+        <span>Desastre</span>
+    </div>
+</div>
+
+</body>
+</html>
